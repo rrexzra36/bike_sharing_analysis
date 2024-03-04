@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-data_url = "day_clean.csv"
+data_url = "dashboard/day_clean.csv"
 day_df = pd.read_csv(data_url)
 
 # Create streamlit app
